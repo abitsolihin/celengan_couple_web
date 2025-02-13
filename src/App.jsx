@@ -55,7 +55,7 @@ export default function App() {
               ))}
               <div className="flex gap-4 ml-4">
                 <a
-                  href="#"
+                  href="./assets/celengan_couple.apk" download="celengan_couple"
                   className="btn-download bg-gradient-to-br from-pink-400 to-purple-500"
                 >
                   <FaDownload />
@@ -124,7 +124,7 @@ export default function App() {
             </p>
             <div className="flex gap-4 w-full justify-center">
                 <a
-                  href="#"
+                  href="./assets/celengan_couple.apk" download="celengan_couple"
                   className="btn-download bg-gradient-to-br from-pink-400 to-purple-500"
                 >
                   <FaDownload />
@@ -139,7 +139,7 @@ export default function App() {
           >
             <div className="absolute inset-0 bg-gradient-to-r from-pink-500 to-purple-600 blur-2xl opacity-30 rounded-full" />
             <img
-              src="/src/assets/mockup.png"
+              src="./assets/mockup.png"
               alt="App Preview"
               className="relative z-10 w-full max-w-md mx-auto rounded-2xl "
             />
@@ -215,7 +215,7 @@ export default function App() {
                   className="btn-download bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-700 hover:to-purple-700"
                 >
                   <FaDownload />
-                  <span>Download Celengan Couple</span>
+                  <a href="./assets/celengan_couple.apk" download="celengan_couple">Download Celengan Couple</a>
                 </motion.a>
               </div>
               <p className="text-gray-500 mt-4 text-sm">
