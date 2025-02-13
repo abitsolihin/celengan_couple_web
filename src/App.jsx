@@ -55,7 +55,7 @@ export default function App() {
               ))}
               <div className="flex gap-4 ml-4">
                 <a
-                  href="../public/celengan_couple.apk"
+                  href="https://celengancouple.vercel.app/celengan_couple.apk"
                   download="celengan_couple.apk"
                   className="btn-download bg-gradient-to-br from-pink-400 to-purple-500"
                 >
@@ -89,16 +89,12 @@ export default function App() {
                   </a>
                 ))}
                 <div className="flex flex-col gap-4 mt-4 w-full px-4">
-                  <a href="#" className="btn-download w-full">
-                    <FaGooglePlay />
-                    <span>Play Store</span>
-                  </a>
                   <a
-                    href="#"
-                    className="btn-download bg-gray-800 hover:bg-gray-900 w-full"
+                    href="https://celengancouple.vercel.app/celengan_couple.apk"
+                    className="btn-download w-full"
                   >
-                    <FaAppStore />
-                    <span>App Store</span>
+                    <FaDownload />
+                    <span>Play Store</span>
                   </a>
                 </div>
               </div>
@@ -125,7 +121,7 @@ export default function App() {
             </p>
             <div className="flex gap-4 w-full justify-center">
               <a
-                href="../public/celengan_couple.apk"
+                href="https://celengancouple.vercel.app/celengan_couple.apk"
                 download="celengan_couple.apk"
                 className="btn-download bg-gradient-to-br from-pink-400 to-purple-500"
               >
