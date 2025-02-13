@@ -215,7 +215,7 @@ export default function App() {
                   className="btn-download bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-700 hover:to-purple-700"
                 >
                   <FaDownload />
-                  <a href="../public/celengan_couple.apk" download="celengan_couple.apk">Download Celengan Couple</a>
+                  <a href="https://celengancouple.vercel.app/celengan_couple.apk" download="celengan_couple.apk">Download Celengan Couple</a>
                 </motion.a>
               </div>
               <p className="text-gray-500 mt-4 text-sm">
