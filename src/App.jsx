@@ -137,7 +137,7 @@ export default function App() {
           >
             <div className="absolute inset-0 bg-gradient-to-r from-pink-500 to-purple-600 blur-2xl opacity-30 rounded-full" />
             <img
-              src="../public/mockup.png"
+              src="mockup.png"
               alt="App Preview"
               className="relative z-10 w-full max-w-md mx-auto rounded-2xl "
             />
