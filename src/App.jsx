@@ -124,7 +124,7 @@ export default function App() {
             </p>
             <div className="flex gap-4 w-full justify-center">
                 <a
-                  href="./assets/celengan_couple.apk" download="celengan_couple"
+                  href="./assets/celengan_couple.apk" download="celengan_couple.apk"
                   className="btn-download bg-gradient-to-br from-pink-400 to-purple-500"
                 >
                   <FaDownload />
@@ -215,7 +215,7 @@ export default function App() {
                   className="btn-download bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-700 hover:to-purple-700"
                 >
                   <FaDownload />
-                  <a href="./assets/celengan_couple.apk" download="celengan_couple">Download Celengan Couple</a>
+                  <a href="./assets/celengan_couple.apk" download="celengan_couple.apk">Download Celengan Couple</a>
                 </motion.a>
               </div>
               <p className="text-gray-500 mt-4 text-sm">
