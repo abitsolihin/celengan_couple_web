@@ -88,13 +88,14 @@ export default function App() {
                     {link.name}
                   </a>
                 ))}
-                <div className="flex flex-col gap-4 mt-4 w-full px-4">
+                <div className="flex gap-4 ml-4">
                   <a
                     href="https://celengancouple.vercel.app/celengan_couple.apk"
-                    className="btn-download w-full"
+                    download="celengan_couple.apk"
+                    className="btn-download bg-gradient-to-br from-pink-400 to-purple-500"
                   >
                     <FaDownload />
-                    <span>Play Store</span>
+                    <span>Download</span>
                   </a>
                 </div>
               </div>
@@ -109,10 +110,10 @@ export default function App() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-center flex"
+          className="text-center flex items-center justify-center flex-col lg:flex-row gap-10"
         >
-          <div className="w-[50%]">
-            <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text h-18 text-transparent mb-6">
+          <div className="w-full md:w-[50%]">
+            <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text h-24 md:h-18 text-transparent mb-6">
               Bangun Masa Depan Bersama
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
@@ -133,7 +134,7 @@ export default function App() {
 
           <motion.div
             whileHover={{ scale: 1.05 }}
-            className="relative max-w-2xl mx-auto w-[50%]"
+            className="relative max-w-2xl mx-auto w-full lg:w-[50%]"
           >
             <div className="absolute inset-0 bg-gradient-to-r from-pink-500 to-purple-600 blur-2xl opacity-30 rounded-full" />
             <img
